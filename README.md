@@ -1,1 +1,1 @@
-ssh
+mesiji mogivida yverichita
