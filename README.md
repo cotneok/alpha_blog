@@ -1,1 +1,1 @@
-nutu gamovida
+Aba vcadot kidev ertxe
