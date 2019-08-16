@@ -46,6 +46,11 @@
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   border-radius: 12px;
 }
+.article-meta-details {
+  border-top: 1px solid #eaeaea;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 
 .page-footer {
   background-color: #d50000;
@@ -66,14 +71,18 @@
 }
 
 .article-title{
+    text-align: center;
+    border-top: 1px solid #eaeaea;
     font-weight: bold;
     font-size: 2pm;
+    padding-top: 15px;
+    padding-bottom:  15px;
 }
 
 .article-body {
+  text-align: center;
   border-top: 1px solid #eaeaea;
   padding-top: 15px;
-  padding-bottom:  15px;
 }
 
 footer {
