@@ -1,5 +1,6 @@
 <h1 align="center"> All Alpha Bloggers </h1>
 <div align="center">
+  <%= will_paginate @users, list_classes: %w(pagination justify-content-center), previous_label: "Previous", next_label: "Next"  %>
   <% @users.each do |user| %>
     <ul class="listing">
       <div>
@@ -12,3 +13,4 @@
     </ul>
 <% end %>
 </div>
+<%= will_paginate @users, list_classes: %w(pagination justify-content-center), previous_label: "Previous", next_label: "Next"  %>

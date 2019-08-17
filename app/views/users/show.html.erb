@@ -5,4 +5,12 @@
   </div>
 </div>
 <h4 align="center"><%= @user.username %>'s article</h4>
+<div align="center">
+  <ul class="pagination justify-content-center" style="margin:20px 0">
+    <li class="page-item"><%= will_paginate @user_articles, list_classes: %w(pagination justify-content-center), previous_label: "Previous", next_label: "Next"  %></li>
+  </ul>
 <%= render 'articles/article', obj: @user.articles %>
+<div align="center">
+  <ul class="pagination justify-content-center" style="margin:20px 0">
+    <li class="page-item"><%= will_paginate @user_articles, list_classes: %w(pagination justify-content-center), previous_label: "Previous", next_label: "Next"  %></li>
+  </ul>
