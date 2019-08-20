@@ -1,0 +1,12 @@
+<h1 align="center"> Listing all articles </h1>
+<div align="center">
+  <ul class="pagination justify-content-center" style="margin:20px 0">
+    <li class="page-item"><%= will_paginate @articles, list_classes: %w(pagination justify-content-center), previous_label: "Previous", next_label: "Next" %></li>
+  </ul>
+</<div>
+<%= render 'article', obj: @articles %>
+<div align="center">
+  <ul class="pagination justify-content-center" style="margin:20px 0">
+    <li class="page-item"><%= will_paginate @articles, list_classes: %w(pagination justify-content-center), previous_label: "Previous", next_label: "Next"  %></li>
+  </ul>
+</<div>

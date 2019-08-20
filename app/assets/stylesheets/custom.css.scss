@@ -1,0 +1,180 @@
+@import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar {
+  background-color: #d50000;
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  padding-top: 10px;
+}
+
+.jumbotron {
+  background-image: asset-url('ruby_logo.jpg');
+  background-size: cover;
+  height: 500px;
+  padding-top: 10px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  leter-spacing: -1px;
+  font-weight: bold;
+}
+
+.btn-xlarge {
+  font-size: 1.7em;
+  background-color: black;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 12px;
+}
+.article-meta-details {
+  border-top: 1px solid #eaeaea;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.page-footer {
+  background-color: #d50000;
+}
+
+.btn-xsmall:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 8px;
+}
+
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+}
+
+.description {
+    margin-top: 5px;
+}
+
+.article-title{
+    text-align: center;
+    border-top: 1px solid #eaeaea;
+    font-weight: bold;
+    font-size: 2pm;
+    padding-top: 15px;
+    padding-bottom:  15px;
+}
+
+.article-body {
+  text-align: center;
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+}
+
+.listing {
+    list-style: none;
+    padding-left: 0;
+}
+
+.badge {
+  background-color: #CEF6F5;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.pass1{
+  padding-top: 15px;
+}
+
+.pass{
+  padding-left: 73px;
+}
+
+
+
+footer {
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+.control-label {
+  font-weight: bold;
+}
+
+.float-left {
+  margin-top: 10px;
+  width: 40%;
+  margin-left: -0.5%;
+  margin-right: 30%
+}
+
+.col-xs-4 {
+  margin-top: 20px;
+  margin-left: auto;
+}
+
+.d-flex {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 25%;
+}
+
+.alert {
+  margin-left: -25%;
+}
+
+$gray-medium-light: #eaeaea;
+
+@mixin box_sizing {
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:         border-box;
+}
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  @include box_sizing;
+}
+.checkboxes {
+ text-align:center;
+ margin-left: -190px;
+}
+
+.checkboxes input{
+ margin: 0px 0px 0px 0px;
+}
+
+.checkboxes label{
+ margin: 0px 20px 0px 3px;
+}

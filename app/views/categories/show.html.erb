@@ -1,0 +1,15 @@
+<h1 align="center"><%= "Category:" + @category.name %></h1>
+<div align="center">
+  <% if logged_in? and current_user.admin? %>
+  <span class = "badge"><%= link_to "Edit category name", edit_category_path(@category) %></span>
+  <% end %>
+   <ul class="pagination justify-content-center" style="margin:20px 0">
+    <li class="page-item"><%= will_paginate @category_articles, list_classes: %w(pagination justify-content-center), previous_label: "Previous", next_label: "Next" %></li>
+   </ul>
+</<div>
+<%= render 'articles/article', obj: @category_articles %>
+<div align="center">
+  <ul class="pagination justify-content-center" style="margin:20px 0">
+    <li class="page-item"><%= will_paginate @category_articles, list_classes: %w(pagination justify-content-center), previous_label: "Previous", next_label: "Next"  %></li>
+  </ul>
+</<div>
